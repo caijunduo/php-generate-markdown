@@ -1,0 +1,38 @@
+{
+    "name": "lonely345/php-generate-markdown",
+    "description": "PHP generate markdown text.",
+    "keywords": [
+        "php",
+        "generate",
+        "markdown"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lonely345",
+            "email": "caijunduo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lonely345\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "./tests"
+        },
+        "classmap": [
+            "./tests"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit
+        bootstrap="vendor/autoload.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        stopOnFailure="false"
+        stopOnError="false"
+        stopOnSkipped="false"
+>
+    <testsuites>
+        <testsuite name="Markdown Tests">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-html" target="./tmp/cover"/>
+        <log type="junit" target="./tmp/result.xml"/>
+    </logging>
+</phpunit>
