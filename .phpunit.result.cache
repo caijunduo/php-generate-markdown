@@ -1,1 +1,0 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":287:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:6:{s:27:"Test\MarkdownTest::testCode";d:0.001;s:28:"Test\MarkdownTest::testQuote";d:0;s:29:"Test\MarkdownTest::testStress";d:0;s:28:"Test\MarkdownTest::testTable";d:0;s:28:"Test\MarkdownTest::testTitle";d:0;s:27:"Test\MarkdownTest::testTodo";d:0;}}}
