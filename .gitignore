@@ -2,5 +2,5 @@
 .DS_Store
 .idea
 tmp
-.composer.lock
+composer.lock
 .phpunit.result.cache
